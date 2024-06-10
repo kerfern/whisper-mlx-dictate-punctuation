@@ -1,15 +1,19 @@
-Why:
-Whisper for Radiologist use.
-whisper autopunctuates and dictating puncutation results in words not actual punctuations.
+# Whisper for Radiologist Use
 
-What:
-2 python files. 1 for the whisper-mlx back end, other for gradio front end for local deployment.
+## Why
+Whisper autopunctuates, and dictating punctuation results in words, not actual punctuations.
 
-Using a series of text transformation, one can strip the puncutation, add punctuation and then capitalise after punctuation.
+## What
+This repository contains two Python files:
+1. **whisper-mlx**: The back end for Whisper.
+2. **gradio**: The front end for local deployment using Gradio.
 
-other features:
-use of intial_prompt to include vocaublary to improve generated output
-use of gradio front end
+Using a series of text transformations, one can strip the punctuation, add punctuation, and then capitalize after punctuation.
 
-disclaimer:
-Most of this was trial and error using GPT4, GPT4o
+## Other Features
+- Use of mlx-whisper for apple silicon use.
+- Use of `initial_prompt` to include vocabulary to improve generated output.
+- Use of Gradio front end for webui.
+
+## Disclaimer
+Most of this was trial and error using GPT-4 and GPT-4o.
