@@ -1,6 +1,6 @@
-# Whisper for Radiologist Use
+# Whisper MLX allowing dictation of puncutation and new line, for Radiologist Use
 
-## Why
+## Problem this overcomes
 Whisper autopunctuates, and dictating punctuation results in words, not actual punctuations.
 
 ## What
@@ -13,7 +13,7 @@ Using a series of text transformations, one can strip the punctuation, add punct
 ## Other Features
 - Use of mlx-whisper for apple silicon use.
 - Use of `initial_prompt` to include vocabulary to improve generated output.
-- Use of Gradio front end for webui.
+- https to allow microphone use via gradio. Use mkcert to make local certificate.
 
 ## Disclaimer
 Most of this was trial and error using GPT-4 and GPT-4o.
